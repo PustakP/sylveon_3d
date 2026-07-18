@@ -1,0 +1,12 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://fwuxqm2j0y2q"]
+
+[ext_resource type="Texture2D" uid="uid://dew8t25mpe5ue" path="res://assets/textures/rock_test/dark_rock_diff_4k.jpg" id="1_4nt8s"]
+[ext_resource type="Texture2D" uid="uid://c5hi7uo23rcsp" path="res://assets/textures/rock_test/dark_rock_nor_gl_4k.png" id="2_auvr6"]
+[ext_resource type="Texture2D" uid="uid://dsm314v4kf254" path="res://assets/textures/rock_test/dark_rock_rough_4k.png" id="3_cb88f"]
+
+[resource]
+albedo_texture = ExtResource("1_4nt8s")
+roughness_texture = ExtResource("3_cb88f")
+normal_enabled = true
+normal_texture = ExtResource("2_auvr6")
+uv1_scale = Vector3(6, 6, 6)
